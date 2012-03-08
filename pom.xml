@@ -36,6 +36,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+    <coin-shared.version>2.1.0-SNAPSHOT</coin-shared.version>
+    <coin-opensocial.version>2.1.0-SNAPSHOT</coin-opensocial.version>
+    <coin-test.version>2.1.0-SNAPSHOT</coin-test.version>
+
     <javax.activation.version>1.1</javax.activation.version>
     <javax.mail.version>1.4.4</javax.mail.version>
     <javax.servlet.version>2.5</javax.servlet.version>
@@ -107,6 +111,26 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- Coin modules -->
+      <dependency>
+        <groupId>org.surfnet.coin</groupId>
+        <artifactId>coin-opensocial</artifactId>
+        <version>${coin-opensocial.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.surfnet.coin</groupId>
+        <artifactId>coin-shared</artifactId>
+        <version>${coin-shared.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.surfnet.coin</groupId>
+        <artifactId>coin-test</artifactId>
+        <version>${coin-test.version}</version>
+        <scope>test</scope>
+      </dependency>
+
       <!-- Specs -->
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -195,6 +219,7 @@
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>${mysql.version}</version>
+        <scope>provided</scope>
       </dependency>
 
       <!-- Apache Commons projects -->
@@ -331,6 +356,20 @@
           <artifactId>maven-release-plugin</artifactId>
           <version>${maven.plugin.release.version}</version>
         </plugin>
+
+        <plugin>
+          <groupId>org.mortbay.jetty</groupId>
+          <artifactId>maven-jetty-plugin</artifactId>
+          <version>${jetty.version}</version>
+          <dependencies>
+            <dependency>
+              <groupId>mysql</groupId>
+              <artifactId>mysql-connector-java</artifactId>
+              <version>${mysql.version}</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+
       </plugins>
     </pluginManagement>
 
