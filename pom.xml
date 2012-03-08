@@ -71,9 +71,10 @@
     <json-simple.version>1.1</json-simple.version>
     <org.json.version>20080701</org.json.version>
     <net.oauth.version>20090825</net.oauth.version>
-    <httpclient.version>4.0.1</httpclient.version>
+    <httpclient.version>4.1</httpclient.version>
 
     <mysql.version>5.1.10</mysql.version>
+    <hsqldb.version>1.8.0.10</hsqldb.version>
     <slf4j.version>1.5.8</slf4j.version>
 
     <junit.version>4.8.1</junit.version>
@@ -239,6 +240,12 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>${mysql.version}</version>
         <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>hsqldb</groupId>
+        <artifactId>hsqldb</artifactId>
+        <version>${hsqldb.version}</version>
       </dependency>
 
       <!-- Apache Commons projects -->
