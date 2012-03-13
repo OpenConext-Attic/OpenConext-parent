@@ -120,14 +120,6 @@
   <dependencyManagement>
     <dependencies>
 
-      <dependency>
-        <groupId>org.surfnet.coin</groupId>
-        <artifactId>coin-master-test-dependencies</artifactId>
-        <version>${project.version}</version>
-        <type>pom</type>
-        <scope>test</scope>
-      </dependency>
-
       <!-- Specs -->
       <dependency>
         <groupId>javax.servlet</groupId>
