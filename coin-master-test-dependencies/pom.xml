@@ -28,7 +28,7 @@
 
   <groupId>org.surfnet.coin</groupId>
   <artifactId>coin-master-test-dependencies</artifactId>
-  <name>SURFconext : coin-master test dependencies POM</name>
+  <name>OpenConext : parent test dependencies POM</name>
 
   <packaging>pom</packaging>
 
