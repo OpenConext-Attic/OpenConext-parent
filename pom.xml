@@ -41,7 +41,9 @@
   </organization>
 
   <scm>
-    <connection>scm:svn:https://svn.surfnet.nl/svn/coin-os/coin-master/trunk/</connection>
+    <connection>scm:git:git@github.com:OpenConext/OpenConext-parent.git</connection>
+    <url>scm:git:git@github.com:OpenConext/OpenConext-parent.git</url>
+    <developerConnection>scm:git:git@github.com:OpenConext/OpenConext-parent.git</developerConnection>
   </scm>
 
   <properties>
