@@ -395,7 +395,7 @@
 
   <developers>
     <developer>
-      <id>okke</id>
+      <id>okke.harsta@surfnet.nl</id>
       <name>Okke Harsta</name>
       <roles>
         <role>Scrum master</role>
@@ -403,7 +403,7 @@
       </roles>
     </developer>
     <developer>
-      <id>stein@everett</id>
+      <id>stein.welberg@flex.surfnet.nl</id>
       <name>Stein Welberg</name>
       <roles>
         <role>Emeritus</role>
@@ -411,7 +411,7 @@
       </roles>
     </developer>
     <developer>
-      <id>christiaan@q42</id>
+      <id>christiaan.hees@flex.surfnet.nl</id>
       <name>Christiaan Hees</name>
       <roles>
         <role>Emeritus</role>
@@ -419,28 +419,28 @@
       </roles>
     </developer>
     <developer>
-      <id>boy@ibuildings</id>
+      <id>boy.baukema@flex.surfnet.nl</id>
       <name>Boy Baukema</name>
       <roles>
         <role>PHP Developer</role>
       </roles>
     </developer>
     <developer>
-      <id>jasha@hippo</id>
+      <id>jasha.joachimsthal@flex.surfnet.nl</id>
       <name>Jasha Joachimsthal</name>
       <roles>
         <role>Java Developer</role>
       </roles>
     </developer>
     <developer>
-      <id>alle@hippo</id>
+      <id>alle.veenstra@flex.surfnet.nl</id>
       <name>Alle Veenstra</name>
       <roles>
         <role>Java Developer</role>
       </roles>
     </developer>
     <developer>
-      <id>geert@iprofs</id>
+      <id>geert.vanderploeg@flex.surfnet.nl</id>
       <name>Geert van der Ploeg</name>
       <roles>
         <role>Java Developer</role>
