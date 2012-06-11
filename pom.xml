@@ -94,12 +94,12 @@
   <distributionManagement>
     <repository>
       <id>coin-repo</id>
-      <name>coin-repo</name>
+      <name>OpenConext releases repository</name>
       <url>dav:http://bamboo-dev.coin.surfnetlabs.nl</url>
     </repository>
     <snapshotRepository>
-      <id>repo</id>
-      <name>Repository Name</name>
+      <id>coin-repo</id>
+      <name>OpenConext snapshots repository</name>
       <url>dav:http://bamboo-dev.coin.surfnetlabs.nl</url>
     </snapshotRepository>
   </distributionManagement>
