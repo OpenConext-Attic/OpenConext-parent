@@ -118,6 +118,20 @@
     </repository>
   </repositories>
 
+  <pluginRepositories>
+    <pluginRepository>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <id>coin-repo</id>
+      <name>COIN Repository</name>
+      <url>http://bamboo-dev.coin.surfnetlabs.nl</url>
+    </pluginRepository>
+  </pluginRepositories>
+
   <dependencyManagement>
     <dependencies>
 
