@@ -54,7 +54,9 @@
     <javax.servlet.jstl.version>1.2</javax.servlet.jstl.version>
     <javax.validation.version>1.0.0.GA</javax.validation.version>
 
-    <spring.version>3.1.1.RELEASE</spring.version>
+    <spring.version>3.1.3.RELEASE</spring.version>
+    <spring-oauth.version>1.0.0.RELEASE</spring-oauth.version>
+    <spring-ldap.version>1.3.1.RELEASE</spring-ldap.version>
 
     <hibernate.version>3.3.2.GA</hibernate.version>
     <hibernate-annotations.version>3.4.0.GA</hibernate-annotations.version>
@@ -128,6 +130,11 @@
       <id>openconext-releases</id>
       <name>OpenConext public releases repository</name>
       <url>https://build.surfconext.nl/repository/public/releases</url>
+    </repository>
+    <repository>
+      <id>spring</id>
+      <name>Sptring public releases</name>
+      <url>http://maven.springframework.org/release</url>
     </repository>
   </repositories>
 
@@ -229,6 +236,67 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
         <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-beans</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-expression</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-tx</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-taglibs</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-core</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-config</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.ldap</groupId>
+        <artifactId>spring-ldap-core</artifactId>
+        <version>${spring-ldap.version}</version>
+      </dependency>
+      <!-- Spring OAuth-->
+      <dependency>
+        <groupId>org.springframework.security.oauth</groupId>
+        <artifactId>spring-security-oauth</artifactId>
+        <version>${spring-oauth.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security.oauth</groupId>
+        <artifactId>spring-security-oauth2</artifactId>
+        <version>${spring-oauth.version}</version>
       </dependency>
 
       <!-- Hibernate -->
@@ -441,60 +509,5 @@
     </extensions>
 
   </build>
-
-  <developers>
-    <developer>
-      <id>okke.harsta@surfnet.nl</id>
-      <name>Okke Harsta</name>
-      <roles>
-        <role>Scrum master</role>
-        <role>Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>stein.welberg@flex.surfnet.nl</id>
-      <name>Stein Welberg</name>
-      <roles>
-        <role>Emeritus</role>
-        <role>Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>christiaan.hees@flex.surfnet.nl</id>
-      <name>Christiaan Hees</name>
-      <roles>
-        <role>Emeritus</role>
-        <role>Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>boy.baukema@flex.surfnet.nl</id>
-      <name>Boy Baukema</name>
-      <roles>
-        <role>PHP Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>jasha.joachimsthal@flex.surfnet.nl</id>
-      <name>Jasha Joachimsthal</name>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>alle.veenstra@flex.surfnet.nl</id>
-      <name>Alle Veenstra</name>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>geert.vanderploeg@flex.surfnet.nl</id>
-      <name>Geert van der Ploeg</name>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-    </developer>
-  </developers>
 
 </project>
