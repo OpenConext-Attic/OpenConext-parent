@@ -1,5 +1,7 @@
 # SURFconext Parent
 
+This is the parent pom declaring the repositories and the commonly used dependencies in the Dependency Management section.
+
 ## About OpenConext
 
 OpenConext is an OpenSource technology stack for creating and running Collaboration platforms. It uses technologies from Federated Identity Management, as is available in Research and Educational Access Federations, Group management and OpenSocial Social Networking Technology. The aim of the software is to provide a middleware platform that can combine generic and specialized collaboration tools and services, within Research and Education, and beyond, and make these available for collaboration over institutional and national borders. The features section describes the current and planned features for the platform.
@@ -14,16 +16,6 @@ SURFconext: [http://www.surfconext.nl](http://www.surfconext.nl)
 ## Disclaimer
 
 See the NOTICE file
-
-## Release Notes
-
-- To be done
-- ..
-
-
-## Getting Started
-
-To be done
 
 ## System Requirements
 
