@@ -20,7 +20,7 @@
 
   <groupId>org.surfnet.coin</groupId>
   <artifactId>coin-master</artifactId>
-  <name>OpenConext : parent POM</name>
+  <name>OpenConext Parent POM</name>
   <version>2.15.1-SNAPSHOT</version>
 
   <packaging>pom</packaging>
