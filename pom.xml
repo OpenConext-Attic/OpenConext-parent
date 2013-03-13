@@ -93,7 +93,7 @@
 
     <joda.version>2.1</joda.version>
 
-    <context-logging.version>1.2.3</context-logging.version>
+    <context-logging.version>1.2.5</context-logging.version>
   </properties>
 
   <distributionManagement>
