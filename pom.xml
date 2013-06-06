@@ -46,7 +46,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <javax.activation.version>1.1</javax.activation.version>
     <javax.mail.version>1.4.4</javax.mail.version>
     <javax.servlet.version>2.5</javax.servlet.version>
