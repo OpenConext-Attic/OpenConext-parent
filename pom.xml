@@ -21,7 +21,7 @@
   <groupId>org.surfnet.coin</groupId>
   <artifactId>coin-master</artifactId>
   <name>OpenConext Parent POM</name>
-  <version>3.5.1-SNAPSHOT</version>
+  <version>3.7.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
@@ -69,7 +69,7 @@
     <json-simple.version>1.1</json-simple.version>
     <org.json.version>20080701</org.json.version>
     <net.oauth.version>20090825</net.oauth.version>
-    <httpclient.version>4.1</httpclient.version>
+    <httpclient.version>4.2.5</httpclient.version>
 
     <mysql.version>5.1.20</mysql.version>
     <hsqldb.version>1.8.0.10</hsqldb.version>
@@ -417,6 +417,11 @@
             <artifactId>commons-logging</artifactId>
           </exclusion>
         </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId>
+        <version>${httpclient.version}</version>
       </dependency>
 
       <!-- Logging -->
