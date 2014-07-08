@@ -90,7 +90,7 @@
     <maven.plugin.source.version>2.1.2</maven.plugin.source.version>
     <maven.wagon.webdav.version>1.0-beta-2</maven.wagon.webdav.version>
 
-    <java.version>1.7</java.version>
+    <java.version>1.8</java.version>
 
     <joda.version>2.1</joda.version>
 
