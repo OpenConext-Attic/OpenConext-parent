@@ -1,6 +1,6 @@
 # SURFconext Parent
 
-This is the parent pom declaring the repositories and the commonly used dependencies in the Dependency Management section.
+This is the parent pom declaring the repositories.
 
 ## About OpenConext
 
