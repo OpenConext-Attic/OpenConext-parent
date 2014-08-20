@@ -21,7 +21,7 @@
   <groupId>org.surfnet.coin</groupId>
   <artifactId>coin-master</artifactId>
   <name>OpenConext Parent POM</name>
-  <version>4.0.4-SNAPSHOT</version>
+  <version>4.0.4</version>
 
   <packaging>pom</packaging>
 
@@ -38,7 +38,7 @@
     <connection>scm:git:git@github.com:OpenConext/OpenConext-parent.git</connection>
     <url>scm:git:git@github.com:OpenConext/OpenConext-parent.git</url>
     <developerConnection>scm:git:git@github.com:OpenConext/OpenConext-parent.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>coin-master-4.0.4</tag>
   </scm>
 
   <properties>
