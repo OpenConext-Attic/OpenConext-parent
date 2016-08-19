@@ -1,3 +1,7 @@
+# Deprecated
+
+This repository is deprecated and replaced by http://projects.spring.io/spring-boot/
+
 # SURFconext Parent
 
 This is the parent pom declaring the repositories.
